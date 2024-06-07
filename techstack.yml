@@ -1,0 +1,1328 @@
+repo_name: minhnguyen311/reaction
+report_id: 7109d2fcbc25d7ac442ebff9f06ac9c6
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-07T13:34:12+00:00'
+requested_by: zenweasel
+provider: github
+branch: trunk
+detected_tools_count: 94
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/minhnguyen311/reaction
+  detection_source: Repo Metadata
+- name: Handlebars.js
+  description: Minimal Templating on Steroids
+  website_url: http://handlebarsjs.com/
+  version: 4.7.6
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-plugin-email-templates/package.json
+  detection_source: packages/api-plugin-email-templates/package.json
+  last_updated_by: vanpho03
+  last_updated_on: 2022-08-24 07:03:19.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/minhnguyen311/reaction
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/reaction/package.json
+  detection_source: apps/reaction/package.json
+  last_updated_by: aaronjudd
+  last_updated_on: 2015-11-18 19:51:50.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: Chris Potter
+  last_updated_on: 2019-10-01 14:07:42.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-core/package.json
+  detection_source: packages/api-core/package.json
+  last_updated_by: vanpho03
+  last_updated_on: 2022-08-24 07:01:49.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  version: 18.10.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/.nvmrc
+  detection_source: Repo Metadata
+  last_updated_by: Sujith
+  last_updated_on: 2023-01-20 10:23:12.000000000 Z
+- name: Relay Framework
+  description: A JavaScript Framework for Building Data-Driven React Applications,
+    by Facebook
+  website_url: https://facebook.github.io/relay/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/4155/Screen_Shot_2015_12_21_at_3_02_58_PM.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-utils/package.json
+  detection_source: packages/api-utils/package.json
+  last_updated_by: vanpho03
+  last_updated_on: 2022-08-24 07:06:40.000000000 Z
+- name: Bull
+  description: Premium Queue package for handling jobs and messages in NodeJS
+  website_url: https://github.com/OptimalBits/bull
+  open_source: true
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Background Processing
+  image_url: https://img.stackshare.io/service/9146/bull-logo.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-plugin-bull-queue/package.json
+  detection_source: packages/api-plugin-bull-queue/package.json
+  last_updated_by: Brent Hoover
+  last_updated_on: 2022-12-08 08:50:58.000000000 Z
+- name: GraphQL
+  description: A data query language and runtime
+  website_url: http://graphql.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Query Languages
+  image_url: https://img.stackshare.io/service/3820/12972006.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/reaction/package.json
+  detection_source: apps/reaction/package.json
+  last_updated_by: vanpho93
+  last_updated_on: 2022-11-30 03:20:19.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  version: '5.0'
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: vanpho93
+  last_updated_on: 2023-01-03 09:53:54.000000000 Z
+- name: Mongoose
+  description: MongoDB object modeling designed to work in an asynchronous environment
+  website_url: http://mongoosejs.com/
+  version: 6.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Document Mapper (ODM)
+  image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-plugin-authentication/package.json
+  detection_source: packages/api-plugin-authentication/package.json
+  last_updated_by: vanpho03
+  last_updated_on: 2022-08-24 07:02:18.000000000 Z
+- name: ws
+  description: A Node.js WebSocket library
+  website_url: https://github.com/websockets/ws
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-core/package.json
+  detection_source: packages/api-core/package.json
+  last_updated_by: vanpho03
+  last_updated_on: 2022-08-24 07:01:49.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.7.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2021-12-02 04:13:20.000000000 Z
+- name: Bunyan
+  description: A logging module for node.js services
+  website_url: https://github.com/trentm/node-bunyan
+  version: 1.8.15
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/10249/no-img-open-source.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/logger/package.json
+  detection_source: packages/logger/package.json
+  last_updated_by: vanpho03
+  last_updated_on: 2022-08-24 07:06:48.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: vanpho93
+  last_updated_on: 2022-12-12 01:08:25.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/minhnguyen311/reaction
+  detection_source: Repo Metadata
+- name: Docker Compose
+  description: Define and run multi-container applications with Docker
+  website_url: https://github.com/docker/compose
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Eric Dobbertin
+  last_updated_on: 2020-01-02 03:28:10.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-core/package.json
+  detection_source: packages/api-core/package.json
+  last_updated_by: vanpho03
+  last_updated_on: 2022-08-24 08:26:13.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: Eric Dobbertin
+  last_updated_on: 2018-02-13 23:32:48.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/minhnguyen311/reaction
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/.github/workflows/docker-release.yml
+  detection_source: ".github/workflows/docker-release.yml"
+  last_updated_by: vanpho93
+  last_updated_on: 2022-12-22 07:56:19.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 29.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: Eric Dobbertin
+  last_updated_on: 2018-02-13 23:32:48.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/reaction/package.json
+  detection_source: apps/reaction/package.json
+  last_updated_by: aaronjudd
+  last_updated_on: 2015-11-18 19:51:50.000000000 Z
+- name: Snyk
+  description: Automatically find &amp; fix vulnerabilities in your code, containers,
+    Kubernetes, and Terraform
+  website_url: https://snyk.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5326/6p1SNAJu.jpg
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/reaction/.snyk
+  detection_source: apps/reaction/.snyk
+  last_updated_by: Spencer Norman
+  last_updated_on: 2018-02-20 04:55:00.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 1.19.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Sujith
+  last_updated_on: 2023-01-20 10:23:12.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/logger/package.json
+  detection_source: packages/logger/package.json
+  last_updated_by: vanpho03
+  last_updated_on: 2022-08-24 07:06:48.000000000 Z
+- name: Stripe
+  description: Payments for developers
+  website_url: https://stripe.com
+  open_source: false
+  hosted_saas: true
+  category: Payments
+  sub_category: Payment Services
+  image_url: https://img.stackshare.io/service/97/eW6tXeq3.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-plugin-payments-stripe-sca/package.json
+  detection_source: packages/api-plugin-payments-stripe-sca/package.json
+  last_updated_by: Brian Nguyen
+  last_updated_on: 2022-08-25 05:00:29.000000000 Z
+- name: iDoneThis
+  description: Easy daily check-ins and powerful progress reports to run more effective
+    and productive teams
+  website_url: https://idonethis.com/
+  open_source: false
+  hosted_saas: true
+  category: Collaboration
+  sub_category: Team Task Management
+  image_url: https://img.stackshare.io/service/338/default_f863a3d7f927a74d6ae21e8e152265bd07ca6cfe.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Eric Dobbertin
+  last_updated_on: 2020-01-02 03:28:10.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.15
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-core/package.json
+  detection_source: packages/api-core/package.json
+  last_updated_by: vanpho03
+  last_updated_on: 2022-08-24 07:01:49.000000000 Z
+- name: Mongo
+  description: Heroku provides services and tools to build, run, and scale web applications.
+    Follow @herokustatus for platform updates. A @salesforce company.
+  website_url: http://wedesignapps.herokuapp.com
+  version: '5.0'
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3519/3wgIDj3j_normal.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: vanpho93
+  last_updated_on: 2023-01-03 09:53:54.000000000 Z
+- name: Nodemailer
+  description: A module for Node.js applications to allow email sending
+  website_url: http://www.nodemailer.com/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/2862/qr2-jCLr.jpg
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/reaction/package.json
+  detection_source: apps/reaction/package.json
+  last_updated_by: github-actions[bot]
+  last_updated_on: 2023-06-13 09:25:29.000000000 Z
+- name: Ramda
+  description: A practical functional library for JavaScript programmers
+  website_url: https://ramdajs.com/
+  version: 0.28.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3076/Ramda-01.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-plugin-accounts/package.json
+  detection_source: packages/api-plugin-accounts/package.json
+  last_updated_by: Brian Nguyen
+  last_updated_on: 2022-09-15 11:25:44.000000000 Z
+- name: Reaction Commerce
+  description: API-first, headless commerce platform
+  website_url: https://reactioncommerce.com/
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Ecommerce
+  image_url: https://img.stackshare.io/service/11840/aU_BlqQA_400x400.jpg
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: vanpho93
+  last_updated_on: 2023-01-03 09:53:54.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/minhnguyen311/reaction
+  detection_source: Repo Metadata
+- name: dataloader
+  website_url: https://github.com/facebook/dataloader
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10611/69631.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-core/package.json
+  detection_source: packages/api-core/package.json
+  last_updated_by: vanpho03
+  last_updated_on: 2022-08-24 07:01:49.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Brian Nguyen
+  last_updated_on: 2022-09-15 11:25:44.000000000 Z
+- name: handlebars
+  description: Handlebars provides the power necessary to let you build semantic templates
+    effectively with no frustration
+  package_url: https://www.npmjs.com/handlebars
+  version: 4.7.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16013/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-plugin-email-templates/package.json
+  detection_source: packages/api-plugin-email-templates/package.json
+  last_updated_by: vanpho03
+  last_updated_on: 2022-08-24 07:03:19.000000000 Z
+  vulnerabilities:
+  - name: Remote code execution in handlebars when compiling templates
+    cve_id: CVE-2021-23369
+    cve_url: https://github.com/advisories/GHSA-f2jv-r9rf-7988
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 4.7.7
+  - name: Prototype Pollution in handlebars
+    cve_id: CVE-2021-23383
+    cve_url: https://github.com/advisories/GHSA-765h-qjxv-5f44
+    detected_date: Feb 11
+    severity: critical
+    first_patched: 4.7.7
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-core/package.json
+  detection_source: packages/api-core/package.json
+  last_updated_by: vanpho03
+  last_updated_on: 2022-08-24 07:01:49.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+  - name: Express.js Open Redirect in malformed URLs
+    cve_id: CVE-2024-29041
+    cve_url: https://github.com/advisories/GHSA-rv95-896h-c2vc
+    detected_date: Mar 26
+    severity: moderate
+    first_patched: 4.19.2
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 2.6.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2021-11-23 23:45:10.000000000 Z
+  vulnerabilities:
+  - name: node-fetch forwards secure headers to untrusted sites
+    cve_id: CVE-2022-0235
+    cve_url: https://github.com/advisories/GHSA-r683-j2x4-v87g
+    detected_date: Jan 22
+    severity: high
+    first_patched: 2.6.7
+- name: sharp
+  description: High performance Node.js image processing
+  package_url: https://www.npmjs.com/sharp
+  version: 0.30.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16806/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: vanpho93
+  last_updated_on: 2022-12-08 02:20:43.000000000 Z
+  vulnerabilities:
+  - name: sharp vulnerability in libwebp dependency CVE-2023-4863
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-54xq-cgqr-rpm3
+    detected_date: Nov 17
+    severity: high
+    first_patched: 0.32.6
+- name: semver
+  description: The semantic version parser used by npm
+  package_url: https://www.npmjs.com/semver
+  version: 6.3.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18809/default_dad3dc9dde4b82dc2a7bd32aa091165887abe57b.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/reaction/package.json
+  detection_source: apps/reaction/package.json
+  last_updated_by: Akarshit Wal
+  last_updated_on: 2021-06-24 05:47:54.000000000 Z
+  vulnerabilities:
+  - name: semver vulnerable to Regular Expression Denial of Service
+    cve_id: CVE-2022-25883
+    cve_url: https://github.com/advisories/GHSA-c2qf-rxjj-qqgw
+    detected_date: Jun 23
+    severity: moderate
+    first_patched: 6.3.1
+- name: "@apollo/server"
+  description: Core engine for Apollo GraphQL server
+  package_url: https://www.npmjs.com/@apollo/server
+  version: 4.2.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-core/package.json
+  detection_source: packages/api-core/package.json
+  last_updated_by: vanpho93
+  last_updated_on: 2022-11-30 03:20:19.000000000 Z
+  vulnerabilities:
+  - name: Prevent logging invalid header values
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-j5g3-5c8r-7qfx
+    detected_date: Dec 19
+    severity: low
+    first_patched: 4.9.3
+- name: "@babel/cli"
+  description: Babel command line
+  package_url: https://www.npmjs.com/@babel/cli
+  version: 7.7.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15848/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2021-12-02 04:13:20.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.7.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2021-12-02 04:13:20.000000000 Z
+- name: "@babel/plugin-proposal-class-properties"
+  description: This plugin transforms static class properties as well as properties
+    declared with the property initializer syntax
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-class-properties
+  version: 7.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15903/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2021-12-02 04:13:20.000000000 Z
+- name: "@babel/plugin-proposal-decorators"
+  description: Compile class and object decorators to ES5
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-decorators
+  version: 7.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16147/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2021-12-02 04:13:20.000000000 Z
+- name: "@babel/plugin-proposal-export-namespace-from"
+  description: Compile export namespace to ES2015
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-export-namespace-from
+  version: 7.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16312/default_3b7197abc4df3d7fa7c5292f17b2e6fb0cd1c8d4.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2021-12-02 04:13:20.000000000 Z
+- name: "@babel/plugin-proposal-function-sent"
+  description: Compile the function.sent meta property to valid ES2015 code
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-function-sent
+  version: 7.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16570/default_7be6bee773ad8b04cf2fb7e9ff82f5d7ba648dfd.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: Brian Nguyen
+  last_updated_on: 2022-08-26 05:42:29.000000000 Z
+- name: "@babel/plugin-proposal-json-strings"
+  description: Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-json-strings
+  version: 7.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16497/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2021-12-02 04:13:20.000000000 Z
+- name: "@babel/plugin-proposal-numeric-separator"
+  description: Remove numeric separators from Decimal
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-numeric-separator
+  version: 7.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16469/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2021-12-02 04:13:20.000000000 Z
+- name: "@babel/plugin-proposal-throw-expressions"
+  description: Wraps Throw Expressions in an IIFE
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-throw-expressions
+  version: 7.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16489/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: vanpho93
+  last_updated_on: 2022-10-05 13:10:26.000000000 Z
+- name: "@babel/plugin-syntax-dynamic-import"
+  description: Allow parsing of import
+  package_url: https://www.npmjs.com/@babel/plugin-syntax-dynamic-import
+  version: 7.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16080/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2021-12-02 04:13:20.000000000 Z
+- name: "@babel/plugin-syntax-import-meta"
+  description: Allow parsing of import.meta
+  package_url: https://www.npmjs.com/@babel/plugin-syntax-import-meta
+  version: 7.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16461/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2021-12-02 04:13:20.000000000 Z
+- name: "@babel/plugin-transform-modules-commonjs"
+  description: This plugin transforms ES2015 modules to CommonJS
+  package_url: https://www.npmjs.com/@babel/plugin-transform-modules-commonjs
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16321/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Sujith
+  last_updated_on: 2023-01-04 06:57:25.000000000 Z
+- name: "@babel/plugin-transform-runtime"
+  description: Externalise references to helpers and builtins
+  package_url: https://www.npmjs.com/@babel/plugin-transform-runtime
+  version: 7.7.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15952/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2021-12-02 04:13:20.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.7.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2021-12-02 04:13:20.000000000 Z
+- name: "@babel/runtime"
+  description: Babel's modular runtime helpers
+  package_url: https://www.npmjs.com/@babel/runtime
+  version: 7.16.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15934/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2021-12-02 04:13:20.000000000 Z
+- name: "@babel/runtime-corejs2"
+  description: Babel's modular runtime helpers with core-js@2 polyfilling
+  package_url: https://www.npmjs.com/@babel/runtime-corejs2
+  version: 7.7.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16792/default_c6eddffbed005d007ab4638fbcac90e4b79576b2.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: Brian Nguyen
+  last_updated_on: 2022-08-26 05:42:29.000000000 Z
+- name: "@commitlint/config-conventional"
+  description: Shareable commitlint config enforcing conventional commits
+  package_url: https://www.npmjs.com/@commitlint/config-conventional
+  version: 17.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16092/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Sujith
+  last_updated_on: 2023-06-15 05:40:26.000000000 Z
+- name: babel-core
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/babel-core
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15798/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2021-12-02 04:13:20.000000000 Z
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  version: 10.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2021-12-02 04:13:20.000000000 Z
+- name: babel-jest
+  description: Jest plugin to use babel for transformation
+  package_url: https://www.npmjs.com/babel-jest
+  version: 24.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15839/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2021-12-02 04:13:20.000000000 Z
+- name: babel-plugin-add-module-exports
+  description: Fix babel/babel#2212
+  package_url: https://www.npmjs.com/babel-plugin-add-module-exports
+  version: 1.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15943/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Sujith
+  last_updated_on: 2023-01-04 06:57:25.000000000 Z
+- name: babel-plugin-transform-es2015-modules-commonjs
+  description: This plugin transforms ES2015 modules to CommonJS
+  package_url: https://www.npmjs.com/babel-plugin-transform-es2015-modules-commonjs
+  version: 6.26.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16037/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Sujith
+  last_updated_on: 2023-01-04 06:57:25.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  version: 1.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-core/package.json
+  detection_source: packages/api-core/package.json
+  last_updated_by: vanpho03
+  last_updated_on: 2022-08-24 07:01:49.000000000 Z
+- name: callsite
+  description: Access to v8's CallSites
+  package_url: https://www.npmjs.com/callsite
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18166/default_30671db30f2fed76dfd58b5a2e0d6a33e57f3e64.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-core/package.json
+  detection_source: packages/api-core/package.json
+  last_updated_by: vanpho03
+  last_updated_on: 2022-08-24 07:01:49.000000000 Z
+- name: content-disposition
+  description: Create and parse Content-Disposition header
+  package_url: https://www.npmjs.com/content-disposition
+  version: 0.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18396/default_dc6769b9772560ba4cb2cd0455560c2922e23c92.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: Brian Nguyen
+  last_updated_on: 2022-08-26 05:42:29.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-core/package.json
+  detection_source: packages/api-core/package.json
+  last_updated_by: vanpho03
+  last_updated_on: 2022-08-24 07:01:49.000000000 Z
+- name: cuid
+  description: Collision-resistant ids optimized for horizontal scaling and performance
+  package_url: https://www.npmjs.com/cuid
+  version: 2.1.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17189/default_183829c5079b84333a720d8590a328efc043ba0e.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-core/package.json
+  detection_source: packages/api-core/package.json
+  last_updated_by: vanpho03
+  last_updated_on: 2022-08-24 07:01:49.000000000 Z
+- name: dataloader
+  description: A data loading utility to reduce requests to a backend via batching
+    and caching
+  package_url: https://www.npmjs.com/dataloader
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18149/default_5813ab9c745152271a057cdab6eeded8939401f3.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-core/package.json
+  detection_source: packages/api-core/package.json
+  last_updated_by: vanpho03
+  last_updated_on: 2022-08-24 07:01:49.000000000 Z
+- name: debug
+  description: Small debugging utility
+  package_url: https://www.npmjs.com/debug
+  version: 4.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/file-collections-sa-base/package.json
+  detection_source: packages/file-collections-sa-base/package.json
+  last_updated_by: snyk-bot
+  last_updated_on: 2021-08-24 00:12:12.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Sujith
+  last_updated_on: 2023-01-04 06:57:25.000000000 Z
+- name: eslint-plugin-jest
+  description: Eslint rules for Jest
+  package_url: https://www.npmjs.com/eslint-plugin-jest
+  version: 26.8.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15996/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Sujith
+  last_updated_on: 2023-02-21 07:14:10.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Sujith
+  last_updated_on: 2023-01-04 06:57:25.000000000 Z
+- name: eslint-plugin-node
+  description: Additional ESLint's rules for Node.js
+  package_url: https://www.npmjs.com/eslint-plugin-node
+  version: 11.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15874/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Sujith
+  last_updated_on: 2023-01-20 10:23:12.000000000 Z
+- name: eslint-plugin-promise
+  description: Enforce best practices for JavaScript promises
+  package_url: https://www.npmjs.com/eslint-plugin-promise
+  version: 6.0.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15885/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Sujith
+  last_updated_on: 2023-01-04 06:57:25.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.31.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Sujith
+  last_updated_on: 2023-06-15 05:40:26.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Sujith
+  last_updated_on: 2023-06-15 05:40:26.000000000 Z
+- name: extend
+  description: Port of jQuery.extend for node.js and the browser
+  package_url: https://www.npmjs.com/extend
+  version: 3.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16161/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: Chris Potter
+  last_updated_on: 2019-10-01 14:07:42.000000000 Z
+- name: faker
+  description: Generate massive amounts of fake contextual data
+  package_url: https://www.npmjs.com/faker
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16327/default_1baba0e6ece19a38adfb211f686c83c781ff703a.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/reaction/package.json
+  detection_source: apps/reaction/package.json
+  last_updated_by: Erik Kieckhafer
+  last_updated_on: 2020-04-28 23:37:59.000000000 Z
+- name: graphql-tag
+  description: A JavaScript template literal tag that parses GraphQL queries
+  package_url: https://www.npmjs.com/graphql-tag
+  version: 2.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16631/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-core/package.json
+  detection_source: packages/api-core/package.json
+  last_updated_by: vanpho93
+  last_updated_on: 2022-11-30 03:20:19.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 5.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Brian Nguyen
+  last_updated_on: 2022-09-15 11:25:44.000000000 Z
+- name: ioredis
+  description: A robust
+  package_url: https://www.npmjs.com/ioredis
+  version: 5.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16522/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-core/package.json
+  detection_source: packages/api-core/package.json
+  last_updated_by: vanpho93
+  last_updated_on: 2022-11-17 06:50:04.000000000 Z
+- name: is-ci
+  description: Detect if the current environment is a CI server
+  package_url: https://www.npmjs.com/is-ci
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18090/image.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/package.json
+  detection_source: package.json
+  last_updated_by: Brian Nguyen
+  last_updated_on: 2022-09-15 11:25:44.000000000 Z
+- name: jwt-decode
+  description: Decode JWT tokens, mostly useful for browser applications
+  package_url: https://www.npmjs.com/jwt-decode
+  version: 3.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17395/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-plugin-authentication/package.json
+  detection_source: packages/api-plugin-authentication/package.json
+  last_updated_by: vanpho03
+  last_updated_on: 2022-08-24 07:02:18.000000000 Z
+- name: ms
+  description: Tiny millisecond conversion utility
+  package_url: https://www.npmjs.com/ms
+  version: 2.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16565/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-plugin-bull-queue/package.json
+  detection_source: packages/api-plugin-bull-queue/package.json
+  last_updated_by: Brent Hoover
+  last_updated_on: 2022-11-23 11:34:46.000000000 Z
+- name: nock
+  description: HTTP server mocking and expectations library for Node.js
+  package_url: https://www.npmjs.com/nock
+  version: 11.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16036/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/reaction/package.json
+  detection_source: apps/reaction/package.json
+  last_updated_by: Eric Dobbertin
+  last_updated_on: 2019-10-17 20:15:58.000000000 Z
+- name: node-cache
+  description: Simple and fast NodeJS internal caching
+  package_url: https://www.npmjs.com/node-cache
+  version: 5.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17328/default_b39374c3a74b433364bfdbff07be26214bf186fd.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-plugin-promotions/package.json
+  detection_source: packages/api-plugin-promotions/package.json
+  last_updated_by: Brent Hoover
+  last_updated_on: 2022-11-18 04:55:08.000000000 Z
+- name: object-hash
+  description: Generate hashes from javascript objects in node and the browser
+  package_url: https://www.npmjs.com/object-hash
+  version: 2.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16940/default_ebf16e0c8af5e95030933d9e01479224b6665289.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-plugin-catalogs/package.json
+  detection_source: packages/api-plugin-catalogs/package.json
+  last_updated_by: vanpho03
+  last_updated_on: 2022-08-24 07:02:39.000000000 Z
+- name: query-string
+  description: Parse and stringify URL query strings
+  package_url: https://www.npmjs.com/query-string
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16244/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/apps/meteor-blaze-app/package.json
+  detection_source: apps/meteor-blaze-app/package.json
+  last_updated_by: Eric Dobbertin
+  last_updated_on: 2019-12-17 02:26:22.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 2.6.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/logger/package.json
+  detection_source: packages/logger/package.json
+  last_updated_by: vanpho03
+  last_updated_on: 2022-08-24 07:06:48.000000000 Z
+- name: transliteration
+  description: Unicode to ACSII transliteration / slugify module for node.js
+  package_url: https://www.npmjs.com/transliteration
+  version: 2.1.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16935/default_7fe969828600a90e84607bfa2a19979e53a0579d.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/api-utils/package.json
+  detection_source: packages/api-utils/package.json
+  last_updated_by: Sujith
+  last_updated_on: 2022-12-02 18:46:10.000000000 Z
+- name: watch
+  description: Utilities for watching file trees
+  package_url: https://www.npmjs.com/watch
+  version: 1.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16280/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: https://github.com/minhnguyen311/reaction/blob/trunk/packages/logger/package.json
+  detection_source: packages/logger/package.json
+  last_updated_by: Brian Nguyen
+  last_updated_on: 2022-08-26 05:42:29.000000000 Z
